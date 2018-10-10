@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Share password";
+}
+
+<div class="main-form">
+    <div class="new_sharePass_popup"> 
+        <div class="sharePass-popup-heading text-center">
+             <h4><i class="fa fa-lock" aria-hidden="true"></i> Enter the password you want to share </h4>                        
+        </div>
+
+        <form id="sharePassForm" asp-action="GetLink" asp-controller="Home" method="POST" 
+        enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="password" class="form-control" id="pass-input" placeholder="Password" name="Password">
+            </div>
+            <button  type="submit" id="btnGetLink" class="btn btn-default sharePass-popup-btn" name="submit" value="1">Generate link</button>
+        </form>
+    </div>
+    <div >
+        <a href="/" id="generated-link"></a>
+        </div>
+ </div>

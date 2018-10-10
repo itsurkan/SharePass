@@ -1,0 +1,74 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.sharePass-popup-heading>h4 {
+    color: #258b47;
+    font-size: 18px;
+    line-height: 30px;
+}
+.new_reg_popup, .new_sharePass_popup {
+    border-radius: 2px;
+    width: 400px;
+    margin: 0px auto;
+}
+.sharePass-popup-btn {
+    background: #258b47;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 28px;
+    margin: 20px auto 5px;
+    width: 150px;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+}
+a{
+     color: #258b47;
+     font-size: 18px;
+}
+.main-form {
+    margin:15% 0%; 
+    padding:0px;
+    text-align:center;
+    align:center;
+}
