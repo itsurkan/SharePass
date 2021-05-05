@@ -7,9 +7,23 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/SharePass.csproj"
+                "${workspaceFolder}/SharePass/SharePass.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/SharePass/SharePass.csproj"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
